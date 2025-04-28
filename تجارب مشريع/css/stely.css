@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.head{
+    width: 1343px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: white;
+}
+.head .logo{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    margin: 0 20px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav ul li a{
+    padding: 0 40px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #6c757d;
+}
+.nav ul li a:hover{
+    color: #69bb7e;
+}
+.icon i{
+    margin: 0 10px;
+    color: black;
+}
+
+
+
+
+.main{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: #efefef;
+    width: 100%;
+    height: 595px;
+
+}
+
+.main .banner_img_01{
+    width: 500px;
+}
+
+.text h1{
+    
+    font-size: 50px;
+    color: #69bb7e;
+}
+.text{
+    width: 600px;
+}
+.text h2{
+    font-size: 40px;
+    
+    font-weight: 500;
+
+}
+.text p{
+
+font-size: 20px;
+}
+
+.text span{
+    color: #69bb7e;
+    
+}
+
+
+
+
+
+
+
+.Month{
+    width: 1343px;
+    height: 800px;
+    padding-top: 60px ;
+
+}
+
+.Month .Month-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Month .Month-text h3{
+    font-size: 50px;
+    font-weight: normal;
+}
+
+
+.Month .Month-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 600px;
+    padding: 0 120px;
+}
+
+
+
+
+.Month .Month-img img{
+    width: 280px;
+    border-radius: 50%;
+    border: #6c757d73 1px solid;
+    
+}
+
+.Month .Month-img1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
+
+
+.Month .Month-img1 h2{
+    margin: 20px 0;
+}
+
+.Month .Month-img1 button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #69bb7e;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+}
+
+
+.Month .Month-text p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+
+
+
+.Product{
+    width: 1343px;
+    height: 630px;
+    padding: 20px 100px;
+    background-color: #e9eef5;
+
+
+}
+
+.Perfect-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Perfect-text h4{
+    font-size: 50px;
+    font-weight: normal ;
+     margin: 10px 0;
+}
+.Perfect-text p{
+    font-size: 20px;
+}
+
+
+.Perfect-main img{
+   width: 300px;
+
+}
+
+.Perfect-img .feature-solor{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Perfect-main{
+    display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+   
+}
+
+
+.img-img img{
+    width: 300px;
+    border-radius: 10px 10px 0 0;
+}
+
+.Perfect-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Perfect-img .img-img{
+    margin: 20px 20px;
+}
+
+.img-img  span{
+    margin: 30px;
+    
+}
+.img-img p{
+    margin: 20px;
+    
+}
+.img-img h2{
+    margin: 20px;
+    font-weight:normal ;
+}
+
+.nn{
+    color: gold;
+    font-size: 20px;
+}
+.fot{
+    font-size: 20px;
+    color: #6c757d;
+}
+
+
+.img-img{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+
+.img-img:hover{
+    transform: scale(1.1);
+}
